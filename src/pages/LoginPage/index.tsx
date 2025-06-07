@@ -12,7 +12,7 @@ const LoginPage = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:8080/api/users/google",
+        "http://20.37.113.32:8080/api/users/google",
         { token }
       );
       const jwt = response.data.jwtToken;
