@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+:root {
+  --primary-color: #1d4e3a;
+  --second-color: #f98417;
+
+  --size-lg: 24px;
+  --size-md: 16px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.body-md-white {
+  font-size: 40px;
+  color: white;
+}
+
+.body-lg-grey {
+  font-size: 26px;
+  color: gray;
+  font-weight: bold;
+}
+
+.body-sm-black {
+  font-size: 18px;
+  color: black;
+}
+
+.body-des-white {
+  font-size: 20px;
+  color: white;
+}
+.title-xl-white {
+  font-size: 64px;
+  font-weight: bold;
+  color: white;
+}
+
+.title-sm-black {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.title-lg-black {
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ant-select-selector {
+  background-color: #2e3856 !important;
+  color: white;
+  border: none;
+}
+
+.ant-select-selection-placeholder,
+.ant-select-selection-item {
+  color: white !important;
+}
